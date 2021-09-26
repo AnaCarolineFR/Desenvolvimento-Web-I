@@ -1,0 +1,142 @@
+*{margin: 0; padding: 0}
+
+body{
+    background: #e6e3e3;
+    font-size: 14px;
+}
+
+#topo{
+    width: 100%;
+    height: auto;
+    /*padding: 20px 0;*/
+    background: #BBBBBB;
+   /*position: relative;*/
+}
+
+#logo{
+    width: 20%;
+    height: auto;
+}
+
+nav{ 
+width: 100%;
+height: auto;
+background-color: brown; 
+float: left;
+}
+
+
+#menu {
+    list-style: none;
+    border: 1px solid #fff;
+    float: left; 
+    padding-left: 4%;
+   
+}
+#menu li{
+    position: relative; /*O valor padrão do position é static*/
+    float: left;
+    border-right: 1px solid #FFF;   
+}
+
+#menu li a{
+    color: rgb(252, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+#menu li a:hover{
+    background-color: #470404;
+    transition: 1s;
+
+}
+
+#menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #b00000;
+    display: none;
+}
+
+#menu li:hover ul, #menu li.over ul{
+    display: block;
+}
+
+#menu li ul li{
+    border: 1px solid #FFF;
+    display: block;
+    width: 150px;
+}
+
+
+.navegacao-a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+#conteudo{
+    width: 100%;
+    min-height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    background-color: #FFF;
+}
+
+#conteudo h1{
+    text-align: center;
+}
+
+.imagem{
+    width: 65%;
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding: 3%;
+}
+
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.rodape{
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+    background-color: 3e3e3e;
+    padding-top: 1%;
+    text-align: center;
+    width: 100%;
+    height: 60px;*/
+    background: #BBBBBB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 150px;
+    font-size: 14px
+}
